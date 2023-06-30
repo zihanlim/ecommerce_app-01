@@ -37,7 +37,7 @@ h6 {
 p {
   font-size: 16px;
   color: #465b52;
-  margin: 15px 0 20px 0;
+  margin: 15px 0 15px 0;
 }
 /* -------------------------------------------------------------------------------------------------------------- */
 .section-p1 {
@@ -471,5 +471,47 @@ bottom: 20px;
   white-space: nowrap;
   border-radius: 0px 4px 4px 0px;
 
+}
+
+/* -------------------------------------------------------------------------------------------------------------- */
+#footer-section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px 80px;
+}
+#footer-section img{
+  padding-bottom: 15px;
+}
+
+#footer-section h6{
+  font-size: 14px;
+}
+#footer-section p{
+  font-size: 14px;
+  padding: 0px;
+}
+#footer-section p:hover{
+  color: #465b52;
+  cursor: pointer;
+}
+#footer-section .icon a{
+  font-size: 20px;
+  text-decoration: none;
+  color: #465b52;
+}
+
+#footer-section .columnD .download{
+  border: 1px solid black;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+  border-radius: 8px;
+
+}
+#footer-section .copyright{
+  width: 100%;
+  text-align: center;
+  font-size: 10px;
 }
 
