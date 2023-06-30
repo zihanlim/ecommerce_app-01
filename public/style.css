@@ -48,6 +48,17 @@ p {
   margin: 40px 0;
 }
 
+button.normal{
+  padding: 10px 10px;
+  border: 2px black;
+  border-radius: 4px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.2s;
+  background-color: white;
+  color: black;
+}
+
 body {
   width: 100%;
 }
@@ -137,6 +148,9 @@ body {
   font-weight: 700;
   font-size: 15px;
   cursor: pointer;
+}
+#hero button:hover{
+  scale: 110%;
 }
 /* -------------------------------------------------------------------------------------------------------------- */
 #feature{
@@ -231,6 +245,9 @@ body {
 
 }
 
+#featured_products h1{
+  padding: 15px ;
+}
 #featured_products .product .product_description h5{
   padding: 7px 0px;
   color: #1a1a1a;
@@ -263,3 +280,196 @@ right: 10px;
 bottom: 20px;
 
 }
+/* -------------------------------------------------------------------------------------------------------------- */
+
+#banner{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-image: url(./img/banner/b2.jpg);
+  padding: 40px 80px;
+  justify-content: center;
+  background-position: center;
+  background-size: cover;
+  border: 100px;
+}
+
+#banner h4{
+  color: white;
+}
+
+#banner h2{
+  color: white;
+  padding: 10px;
+}
+
+#banner h2 span{
+  color: rgb(224, 17, 17);
+}
+
+/* #banner button{
+  padding: 10px 10px;
+  border: 2px black;
+  border-radius: 4px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.2s;
+  background-color: white;
+  color: black;
+} */
+
+#banner button:hover{
+  font-weight: 500;
+  background-color: #465b52;
+  color: white  ;
+}
+
+/* -------------------------------------------------------------------------------------------------------------- */
+#banner-2{
+  display: flex;
+  justify-content:space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  /* justify-content: center; */
+  padding: 20px 80px ;
+  /* background-size: cover */
+
+}
+
+#banner-2 h6,h4,span{
+  color: white;
+}
+#banner-2 button{
+  padding: 11px 18px;
+  border: 1px solid white;
+  border-radius: 4px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.2s;
+  background-color:transparent;
+  color: white;
+}
+/* hover effect on banner-2 where banner-2 is treated like a button*/
+#banner-2 :hover button{
+  font-weight: 500;
+  background-color: #465b52;
+  color: white  ;
+}
+#banner-2 .dress {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-image: url("img/banner/b17.jpg");
+  background-size: cover;
+  background-position: center;
+  min-width: 650px;
+  min-height: 340px;
+  padding: 30px;
+  
+}
+#banner-2 .season {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: center; */
+  background-image: url("img/banner/b10.jpg");
+  /* background-size: cover;
+  background-position: center;
+  min-width: 680px;
+  min-height: 340px;
+  padding: 30px; */
+}
+/* -------------------------------------------------------------------------------------------------------------- */
+
+#banner-3{
+  display: flex;
+  justify-content:space-between;
+  padding: 20px 80px;
+}
+#banner-3 .advcards{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-image: url("img/banner/b7.jpg");
+  background-size: cover;
+  background-position: center;
+  min-width: 30%;
+  height: 30vh;
+  padding: 20px;
+}
+
+#banner-3 .two{
+  background-image: url("img/banner/b4.jpg");
+}
+
+#banner-3 .three{
+  background-image: url("img/banner/b18.jpg");
+}
+#banner-3 h3{
+  color: white;
+
+}
+#banner-3 h5{
+  color:#bd4527;
+}
+
+/* -------------------------------------------------------------------------------------------------------------- */
+
+#newsletter{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  background-image: url("img/banner/b14.png");
+  background-position: 20% 30%;
+  background-repeat: no-repeat;
+  background-color: #041e42;
+  padding: 40px;
+}
+
+#newsletter h4{
+  color: white;
+  font-weight: 700;
+  font-size: 22px;
+  padding-bottom: 10px;
+}
+#newsletter h6{
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+}
+#newsletter h6 span{
+  color:goldenrod;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+#newsletter .form{
+  display: flex;
+  width: 40%;
+}
+
+
+#newsletter input{
+  height: 3.125rem;
+  padding: 0 1.25em;
+  font-size: 14px;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 4px 0px 0px 4px;
+  outline: none;
+
+}
+
+#newsletter button{
+  background-color: #465b52;
+  color: white;
+  white-space: nowrap;
+  border-radius: 0px 4px 4px 0px;
+
+}
+
